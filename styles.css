@@ -1,0 +1,1068 @@
+body {
+    display: flex !important;
+    flex-direction: column;
+    background-color: #101111;
+    color: #FFFFFF;
+    align-items: center;
+    padding-top: 15px;
+    font-family: "Poppins", 'inter';
+    overflow-x: hidden
+}
+
+button {
+    cursor: pointer;
+}
+
+.nav_bar {
+    display: flex;
+    height: 52px;
+    justify-content: space-between;
+    padding: 0 5%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.logo_sec {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.logo_sec h2 {
+    font-weight: normal;
+}
+
+.logo {
+    width: 39px;
+    height: 30px;
+}
+
+.menu_sec {
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 418px;
+    background-color: #1C1C1C;
+    border-radius: 999px;
+    padding: 3px;
+    box-sizing: border-box;
+    border: 1.5px solid transparent;
+    background: linear-gradient(90deg, #1C1C1C, #1C1C1C) padding-box,
+    linear-gradient(90deg, #FFD49C, #7A87FB) border-box;
+}
+
+.menu_home {
+    width: 52px;
+    height: 36px;
+    cursor: pointer;
+}
+
+.menu_list {
+    transition: 200ms ease-in all;
+    cursor: pointer;
+    width: max-content;
+    padding: 8px;
+    border-radius: 999px;
+}
+
+.menu_list:hover {
+    background-color: #292929;
+}
+
+.login_sec {
+    width: 200px;
+
+}
+
+.login_sec {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    color: #000000;
+    width: fit-content;
+}
+
+.hire_me_b,
+.user_b,
+.hero_sec_hire_me_b {
+    transition: 200ms ease-in all;
+    border: 1px solid transparent;  
+    /* border-image-source: linear-gradient(269.57deg, #7A87FB%200.72%,%20#FFD49C%2099.22%); */
+    background: linear-gradient(90deg, #7A87FB, #FFD49C) padding-box,
+    linear-gradient(90deg, #FFD49C, #7A87FB) border-box;
+}
+
+.hire_me_b:hover,
+.user_b:hover,
+.hero_sec_hire_me_b:hover {
+    background: linear-gradient(90deg, #959ffc, #ffe1ba) padding-box,
+    linear-gradient(90deg, #ffe1ba, #959ffc) border-box;
+}
+
+.hire_me_b {
+    width: 105px;
+    height: 52px;
+    border-radius: 999px;
+    font-weight: bold;
+}
+
+.user_b {
+    width: 20px;
+    height: 20px;
+    padding: 14px;
+    border-radius: 50%;  
+}
+
+.hero_sec {
+    margin-top: 52px;
+    background-color: #101111;
+    background-image: 
+        linear-gradient(to right, rgba(255,255,255,0.1) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255,255,255,0.1) 1px, transparent 1px);
+    background-size: 181.5px 80.9px;
+    min-height: 567px;
+    width: 1090px;
+    width: 81.8%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.hero_sec_content {
+    position: relative;
+    top: 85px;
+    width: 720px;
+    /* width: 66.3%; */
+    background-color: #101111;
+    text-align: center;
+    align-content: center;
+    position: relative;
+    height: 235px;
+}
+
+.hero_sec h2 {
+    font-weight: normal;
+    font-size: 32px;
+    margin-bottom: 0;
+}
+
+.hero_sec p {
+    padding: 0 12%;
+    margin-top: 11px;
+    font-size: 16px;
+}
+
+.hero_sec_hire_me_b {
+    padding: 10px 25px;
+    font-size: 16px;
+    border-radius: 999px;
+    font-weight: medium;
+}
+
+.portal {
+    width: 31px;
+    height: 31px;
+    position: absolute;
+}
+
+#portal_1 {
+    left: -1%;
+    bottom: 40%;
+}
+
+#portal_2 {
+  right: -20px;
+  top: -20px;
+}
+
+.skill_sec {
+    /* box-sizing: border-box; */
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    border: 1px solid rgba(255, 255, 255, 0.349);
+}
+
+.skill_star_icon {
+    width: 24px;
+    height: 24px;
+}
+
+.my_work_flow_sec {
+    width: 100%;
+}
+
+.my_work_flow_header {
+    display: flex;
+    margin-top: 91px;
+    margin-left: 12%;
+    align-items: center;
+}
+
+.my_work_flow_header h1 {
+    margin-right: 10px;
+    font-weight: normal;
+}
+
+.two_portal_icon {
+    width: 36px;
+    height: 36px;
+}
+
+.work_flow_steps_cont {
+    list-style: none;
+    margin-top: 44px;
+}
+
+.work_flow_step {
+    width: 735px;
+    height: fit-content;
+    padding: 47px 0 46px 140px;
+    box-sizing: border-box;
+    margin-left: 7%;
+    position: relative
+}
+
+.steps_icon {
+    width: 56px;
+    height: 56px;
+}
+
+.work_flow_step h2 {
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.work_flow_step p {
+    opacity: 0.8;
+}
+
+.see_example_b {
+    color: white;
+    border: 1.5px solid transparent;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 999px;
+    background: linear-gradient(90deg, #101111, #101111) padding-box,
+    linear-gradient(90deg, #FFD49C, #7A87FB) border-box;
+}
+
+.see_example_b:hover {
+    background: linear-gradient(90deg, #222424, #222424) padding-box, linear-gradient(90deg, #FFD49C, #7A87FB) border-box;
+}
+
+.step_list_number_icon {
+    position: absolute;
+    width: 88px;
+    height: 88px;
+    left: 0;
+    top: 31px;
+}
+
+#step_two_icon {
+    rotate: 87deg;
+}
+
+#step_three_icon {
+    rotate: -140.9deg;
+}
+
+.project_sec {
+    width: 100%;
+}
+
+
+.project_sec_header {
+    width: 100%;
+    display: flex;
+    margin-top: 91px;
+    margin-left: 12%;
+    align-items: center;
+}
+
+.project_sec_header h1 {
+    margin-right: 10px;
+    font-weight: normal;
+}
+
+.project_lists_cont {
+    width: 100%;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    row-gap: 42.5px;
+    padding: 0;
+}
+
+.project_list {
+    display: flex;
+    align-items: center;
+    background-color: #151515;
+    width: 1093px;
+    height: 655.5px;
+    border-radius: 9px;
+    box-sizing: border-box;
+    padding: 55px 95px;
+}
+
+.project_og_img {
+    background-size: cover;
+    width: 545px;
+    height: 545px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+#project_social_card {
+    background-position: right;
+    background-image: url('./public/og/project_social-card.png');
+}
+
+#project_liverpool_guess_the_player {
+    background-image: url('./public/og/project_liverpool-guess-the-player.png');
+    background-position: center;
+}
+
+#project_daily_baydin {
+    background-image: url('./public/og/project_daily-baydin.png');
+    background-position: center;
+}
+
+.project_info {
+    text-align: center;
+    flex: 1;
+}
+
+.project_info h2 {
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+    position: relative;
+    font-weight: 700;
+}
+
+.project_logo {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: -40px;
+}
+
+.project_info p {
+    padding: 0 35px;
+    opacity: 0.8;
+}
+
+.client_review_sec {
+    width: 100%;
+    margin-top: 130px;
+}
+
+.review_header {
+    width: 100%;
+    display: flex;
+    margin-top: 91px;
+    margin-left: 12%;
+    align-items: center;
+}
+
+.review_header h1 {
+    margin-right: 25px;
+    font-weight: normal;
+}
+
+.review_lists_cont {
+    width: 100%;
+    margin-top: 95px;
+    list-style: none;
+    margin-left: 12%;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 369px);
+    column-gap: 56px;
+    row-gap: 40px;
+}
+
+.review_list {
+    width: 369px;
+    height: 201px;
+    box-sizing: border-box;
+    padding: 32px 24px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    background: linear-gradient(90deg, #101111, #101111) padding-box,
+    linear-gradient(130deg, #FFD49C 5%, #7a87fb42 20%, #7a87fb15 32%, transparent 10%) border-box;
+}
+
+.client_info {
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    position: relative;
+}
+
+.client_pfp {
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+    border-radius: 50%;
+}
+
+.client_content p {
+    margin-top: 5px;
+    margin-bottom: 4px;
+}
+
+.client_content span {
+    font-size: 13px;
+    opacity: 0.7;
+}
+
+.two_song_icon {
+    position: absolute;
+    width: 43px;
+    height: 31px;
+    right: 5px;
+}
+
+.client_review {
+    font-size: 14px;
+    opacity: 0.8;
+    max-height: 63px;
+    overflow: hidden;
+}
+
+.content_us_section {
+    width: 100%;
+    margin-top: 217px;
+    position: relative;
+}
+
+.content_us_header {
+    width: 100%;
+    display: flex;
+    margin-left: 12%;
+    align-items: center;
+}
+
+.content_us_header h1 {
+    font-size: 40px;
+    margin: 0;
+    margin-right: 25px;
+    font-weight: normal;
+}
+
+.content_us_info {
+    margin-top: 40px;
+    width: 468px;
+    margin-left: 12%;
+}
+
+.content_us_info p {
+    margin: 0;
+}
+
+.content_us_info button {
+    transition: 200ms ease-in all;
+    margin-top: 46px;
+    font-size: 16px;
+    padding: 10px 21px;
+    border-radius: 999px;
+    border: 1.5px solid transparent;
+    background: linear-gradient(90deg, #7A87FB, #FFD49C) padding-box,
+    linear-gradient(90deg, #FFD49C, #7A87FB) border-box;
+}
+
+.content_us_info button:hover {
+    background: linear-gradient(90deg, #959ffc, #ffe1ba) padding-box,
+    linear-gradient(90deg, #ffe1ba, #959ffc) border-box;
+}
+
+.bg_frame {
+    position: absolute;
+    right: 10%;
+    top: -75px;
+    width: 392px;
+    height: 392px;
+    background: linear-gradient( to right, transparent 0%, transparent 49.9%, rgba(255, 255, 255, 0.24) 50.4%, transparent 50.5%, transparent 69.9%, rgba(255, 255, 255, 0.24) 70%, transparent 70.3%, transparent 89.9%, rgba(255, 255, 255, 0.24) 90%, transparent 90.1% ),
+    linear-gradient( to bottom, transparent 0%, transparent 49.9%, rgba(255, 255, 255, 0.24) 50.4%, transparent 50.5%, transparent 69.9%, rgba(255, 255, 255, 0.24) 70%, transparent 70.3%, transparent 89.9%, rgba(255, 255, 255, 0.24) 90%, transparent 90.1% );
+    background-size: 100% 101%;
+}
+
+#portal_3 {
+    right: 26%;
+    bottom: 25%;
+}
+
+#portal_4 {
+    right: 45.5%;
+    bottom: 45%;
+}
+
+.footer_cont {
+    width: 100%;
+    height: 169px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 177px;
+    align-items: center;
+}
+
+.social_links_lists_cont {
+    width: 363px;
+    height: 48px;
+    border-radius: 999px;
+    border: 1.5px solid transparent;
+    background: linear-gradient(90deg, #1C1C1C, #1C1C1C) padding-box,
+    linear-gradient(90deg, #FFD49C, #7A87FB) border-box;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+
+.social_link {
+    transition: 200ms ease-in all;
+    padding: 8px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 999px;
+    background-color: #292929;
+    cursor: pointer;
+}
+
+.social_link:hover {
+    background-color: #3f3f3f;
+}
+
+.sms_menu_b {
+    display: none;
+}
+
+.line {
+    position: absolute;
+    width: 680px;
+    rotate: 90deg;
+    left: -40.5%;
+    bottom: -75px;
+    background-color: #FFFFFF5C;
+}
+
+#portal_1,
+#portal_2,
+#portal_3,
+#portal_4 {
+    transition: 200ms ease-in opacity;
+    opacity: 0.9;
+}
+
+#portal_1:hover,
+#portal_2:hover,
+#portal_3:hover,
+#portal_4:hover {
+    opacity: 1;
+}
+
+
+@media (max-width: 1100px) {
+
+    .nav_bar {
+        padding: 0 2%;
+    }
+    
+    .bg_frame {
+        display: none;
+    }
+
+    .project_list {
+        width: 90%;
+        font-size: 15px;
+        padding: 55px 70px;
+        height: 550px;
+    }
+
+    .project_og_img {
+        width: 415px;
+        height: 415px;
+    }
+
+    .review_lists_cont {
+        column-gap: 40px;
+    }
+
+}
+
+@media (max-width: 900px) {
+
+    .nav_bar {
+        font-size: 15px;
+    }
+
+    .menu_sec {
+        width: 48%;
+    }
+
+    .hire_me_b {
+        height: 45px;
+    }
+
+    .hero_sec_content {
+        height: fit-content;
+    }
+
+    .hero_sec h2 {
+        font-size: 30px;
+    }
+
+    .hero_sec p {
+        font-size: 15px;
+    }
+
+    .skill_sec {
+        font-size: 14px;
+    }
+
+    .skill_star_icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .my_work_flow_sec {
+        font-size: 15px;
+    }
+
+    .steps_icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .step_list_number_icon {
+        width: 81px;
+        height: 81px;
+    }
+
+    .work_flow_step {
+        width: 90%;
+    }
+
+    .work_flow_step h2 {
+        font-size: 21px;
+    }
+
+    .project_sec {
+        font-size: 15px;
+    }
+
+    .project_sec_header {
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .project_list {
+        width: 95%;
+        font-size: 14px;
+        padding: 40px 30px;
+        height: 470px;
+    }
+
+    .project_og_img {
+        height: 380px;
+        width: 380px;
+    }
+
+    .project_info p {
+        padding: 0 12px;
+    }
+
+    .review_list_sec {
+        font-size: 15px;
+    }
+
+    .two_portal_icon {
+        width: 32px;
+        height: 32px;
+    }
+
+    .review_header {
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    .review_lists_cont {
+        margin-left: 0;
+        font-size: 15px;
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .client_content p {
+        margin-top: 5px;
+        margin-bottom: 2px;
+    }
+
+    .client_content span {
+        font-size: 12px;
+        opacity: 0.7;
+    }
+
+    .client_pfp {
+        width: 45px;
+        height: 45px;
+    }
+
+    .social_links_lists_cont { 
+        width: 43%;
+    }
+
+    .line {
+        display: none;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .nav_bar {
+        font-size: 14px;
+    }
+
+    .menu_sec {
+        display: none;
+    }
+
+    .sms_menu_b {
+        display: block;
+        width: 35px;
+        height: 35px;
+        background: linear-gradient(90deg, #7A87FB, #FFD49C) padding-box,
+        linear-gradient(90deg, #FFD49C, #7A87FB) border-box;
+        border-radius: 50%;
+        position: relative;
+        left: 10px;
+    }
+
+    .hire_me_b {
+        height: 40px;
+        width: 95px;
+        font-size: 13px;
+    }
+
+    .user_b {
+        width: 23px;
+        height: 23px;
+        padding: 10px;
+    }
+
+    .hero_sec h2 {
+        font-size: 28px;
+    }
+
+    .hero_sec p {
+        font-size: 14px;
+        padding: 0 10%;
+    }
+
+    .hero_sec_hire_me_b {
+        margin-top: 10px;
+    }
+
+    #portal_1 {
+        left: -4%;
+    }
+
+    #portal_2 {
+        right: 0;
+    }
+
+    .skill_sec {
+        flex-wrap: wrap;
+        column-gap: 30px;
+        justify-content: center;
+    }
+
+    .skill_star_icon {
+       display: none;
+    }
+
+    .my_work_flow_sec {
+        font-size: 14px;
+    }
+
+    .two_portal_icon {
+        width: 29px;
+        height: 29px;
+    }
+
+    .step_list_number_icon {
+        width: 75px;
+        height: 75px;
+    }
+
+    .steps_icon {
+        width: 45px;
+        height: 45px;
+    }
+
+    .work_flow_step {
+        padding: 47px 0 46px 115px;
+    }
+
+    .work_flow_step h2 {
+        font-size: 20px;
+    }
+
+    .project_sec {
+        font-size: 14px;
+    }
+
+    .project_list {
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .project_og_img {
+        order: 2;
+    }
+
+    .client_review_sec {
+        font-size: 13px;
+    }
+
+    .content_us_header {
+        margin-left: 10%;
+        width: fit-content;
+    }
+
+    .content_us_header h1 {
+        font-size: 38px;
+    }
+
+    .content_us_info {
+        margin-left: 10%;
+        width: fit-content;
+    }
+
+    .footer_cont {
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        padding-left: 10%;
+        box-sizing: border-box;
+    }
+
+    .social_links_lists_cont {
+        width: 320px;
+        order: 3;
+    }
+
+    .review_list {
+        width: 80%;
+    }
+}
+
+@media (max-width: 500px) {
+    
+    .hero_sec {
+        width: 100%;
+        margin-top: 65px;
+    }
+
+    .user_b {
+        display: none;
+    }
+
+    .sms_menu_b {
+        left: -110px;
+        bottom: -60px;
+    }
+
+    .hire_me_b {
+        height: 37px;
+        width: 85px;
+        font-size: 12px;
+    }
+
+    .hero_sec h2 {
+        font-size: 25px;
+        padding: 0 15px;
+    }
+
+    .hero_sec p {
+        font-size: 13px;
+        padding: 0 7%;
+    }
+
+    #portal_1 {
+        display: none;
+    }
+
+    .my_work_flow_sec {
+        font-size: 13px;
+    }
+
+    .my_work_flow_header {
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .work_flow_step {
+        padding: 47px 0 46px 20px;
+    }
+
+    .step_list_number_icon {
+        z-index: 3;
+    }
+
+    .work_flow_step h2 {
+        font-size: 19px;
+    }
+
+    .see_example_b {
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    .project_sec {
+        font-size: 13px;
+    }
+
+    .project_list {
+        font-size: 13px;
+    }
+
+    .project_og_img {
+        height: 280px;
+        width: 280px;
+    }
+
+    .review_list {
+        width: 335px;
+        padding: 32px 17px;
+    }
+
+    .two_song_icon {
+        width: 38px;
+        height: 26px;
+    }
+
+    .client_review {
+        font-size: 13px;
+    }
+
+    .content_us_section {
+        margin-top: 140px;
+    }
+
+    .content_us_header h1 {
+        font-size: 35px;
+    }
+
+    .content_us_info p,
+    .content_us_info button {
+        font-size: 15px;
+    }
+
+    .client_review_sec {
+        margin-top: 0;
+    }
+
+}
+
+@media (max-width: 350px) {
+
+    .portal {
+        width: 27px;
+        height: 27px;
+    }
+
+    .hero_sec {
+        min-height: 483px;
+    }
+    
+    .hero_sec h2 {
+        font-size: 23px;
+    }
+
+    .hero_sec p {
+        font-size: 12px;
+    }
+
+    .two_portal_icon {
+        display: none;
+    }
+
+    .my_work_flow_sec {
+        font-size: 11px;
+    }
+
+    .work_flow_steps_cont {
+        padding: 0;
+        margin-top: 15px;
+    }
+
+    .work_flow_step h2 {
+        font-size: 17px;
+    }
+
+    .see_example_b {
+        font-size: 13px;
+    }
+
+    .project_sec {
+        font-size: 11px;
+    }
+
+    .project_list {
+        width: 95%;
+        font-size: 12px;
+        padding: 40px 18px;
+    }
+
+    .project_og_img {
+        height: 200px;
+        width: 200px;
+    }
+
+    .client_review_sec {
+        font-size: 11px;
+    }
+
+    .review_lists_cont {
+        margin-top: 50px;
+        font-size: 13px;
+    }
+
+    .client_review {
+        font-size: 12px;
+        max-height: 61px;
+    }
+
+    .review_list {
+        padding: 22px 17px;
+        height: 175px;
+    }
+
+    .client_content span {
+        font-size: 10px;
+    }
+
+    .footer_cont {
+        padding-left: 5px;
+    }
+
+    .social_links_lists_cont {
+        width: 100%;
+    }
+}
